@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Dynamic Title passed from your index.js routes -->
+    <title><%= pageTitle %></title>
+    
+    <!-- Global CSS Link -->
+    <link rel="stylesheet" href="/css/Global.css"> 
+
+    <% if (locals.pageStyle) { %>
+        <link rel="stylesheet" href="/css/<%= pageStyle %>.css">
+    <% } %>
+</head>
+<body>
