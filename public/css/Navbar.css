@@ -1,0 +1,77 @@
+.globalNav__nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.globalNav__nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    font-family: sans-serif;
+}
+
+.globalNav__nav {
+    display: flex;
+    align-items: center;
+    padding: 15px 40px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1); 
+    background-color: #ffffff;
+}
+
+.globalNav__wrapper {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-grow: 1;                  
+    margin-left: 40px;
+}
+
+.primaryNav .flex {
+    display: flex;
+    gap: 25px;
+}
+
+.auxilaryNav {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.find-store {
+    margin-right: 10px;
+}
+
+
+.btn {
+    padding: 7px 18px;
+    border-radius: 50px; 
+    transition: all 0.2s ease;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+.btn-signin {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.btn-signin:hover {
+    background-color: #f1f1f1;
+}
+
+.btn-join {
+    background-color: #000000;
+    color: #ffffff !important;
+    padding: 7px 18px;
+    border-radius: 50px;
+    border: 1px solid #000000;
+    transition: all 0.2s ease;
+}
+
+.btn-join:hover {
+    background-color: #ffffff;
+    color: #000000;         
+}
