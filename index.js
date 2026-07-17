@@ -2,8 +2,6 @@ require('dotenv').config()
 
 const express = require("express");
 const path = require("path");
-const menuData = require("./models/menuData"); //For menu data import
-
 const app = express();
 
 const PORT = process.env.PORT || 5000;
@@ -18,11 +16,6 @@ app.get("/", (req, res) => {
 
 app.get("/about", (req, res) => {
     res.render("pages/about", { pageTitle: "Starbucks - About" });
-})
-
-//Add route that listens for request to /menu and Sends the menu categories to the template as menuData.
-app.get("/menu", (req, res) => {
-  res.render("pages/menu", {pageTitle: "Starbucks - Menu" });
 })
 
 
